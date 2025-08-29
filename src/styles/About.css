@@ -1,0 +1,100 @@
+.about {
+  color: #ffffff;
+  padding: 20px;
+  font-family: 'Aleo', sans-serif;
+}
+
+.platform-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+  padding: 0 20px;
+}
+
+.platform-section .platform-text,
+.platform-section .mission-text {
+  width: 48%;
+}
+
+.headerText {
+  text-align: center; /* Mengatur teks agar berada di tengah secara horizontal */
+  display: flex;
+  justify-content: center; /* Mengatur agar elemen div berada di tengah */
+  align-items: center; 
+}
+
+.platform-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.team-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.team-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.team-member {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #a9a9a9;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  border-top: 1px solid #444444;
+  color: #a9a9a9;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
+.container-about {
+  background-color: #070E16;
+  color: #ffffff;
+  padding: 50px 20px;
+  border-radius: 50px;
+  width: 100vw; /* Full width of the viewport */
+  margin-left: calc(-50vw + 50%); /* Centering the full-width container */
+  box-sizing: border-box;
+}
+
+.HeaderAbout img {
+  width: 100%; /* Menyesuaikan lebar gambar dengan lebar elemen kontainer */
+  max-width: 90rem; /* Batas maksimum ukuran gambar */
+  height: auto; /* Menjaga rasio aspek gambar */
+  display: block;
+  margin: 0 auto; /* Agar gambar berada di tengah */
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
