@@ -53,23 +53,23 @@ function About() {
         <h1>The People Behind</h1>
         <div className="team-grid">
           <div className="team-member">
-            <img src={teamImages.Naufal} alt="Naufal Ziyaadaturrahman" />
-            <h3>Naufal Ziyaadaturrahman</h3>
+            <img src={teamImages.Naufal} alt="Kalp Chaniyara" />
+            <h3>Kalp Chaniyara</h3>
             <p>Project Lead</p>
           </div>
           <div className="team-member">
-            <img src={teamImages.Irfan} alt="Irfan Hera Nurrohman" />
-            <h3>Irfan Hera Nurrohman</h3>
+            <img src={teamImages.Irfan} alt="Dhruv Patel" />
+            <h3>Dhruv Patel</h3>
             <p>Frontend Developer</p>
           </div>
           <div className="team-member">
-            <img src={teamImages.Damar} alt="Athaya Damar Arthadipraja" />
-            <h3>Athaya Damar Arthadipraja</h3>
-            <p>Business Development</p>
+            <img src={teamImages.Damar} alt="Zeel Dadhaniya" />
+            <h3>Zeel Dadhaniya</h3>
+            <p>Backend Developer</p>
           </div>
           <div className="team-member">
-            <img src={teamImages.John} alt="John Devin Christianto" />
-            <h3>John Devin Christianto</h3>
+            <img src={teamImages.John} alt="Aayush Goyal" />
+            <h3>Aayush Goyal</h3>
             <p>Blockchain Researcher</p>
           </div>
         </div>
