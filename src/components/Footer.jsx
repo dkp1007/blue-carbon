@@ -48,7 +48,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p className="footer-copyright">&copy; 2024 Ocarbn. All rights reserved.</p>
+        <p className="footer-copyright">&copy; 2025 Ocarbon. All rights reserved.</p>
       </div>
     </footer>
   );
